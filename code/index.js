@@ -11,7 +11,7 @@ const s3 = new Aws.S3({
     apiVersion: "2006-03-01"
 });
 const nbrite = new Nbrite({
-    token: process.env.eventbriteToken // || "6BGXJFRC4WZTG4KVWARZ" TODO: REMOVEME
+    token: process.env.eventbriteToken
 });
 
 const getEventIds = () => {
